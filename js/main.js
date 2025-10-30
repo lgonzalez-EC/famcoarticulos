@@ -30,19 +30,13 @@
     });
 
 
-    // Back to top button
+    // WhatsApp contact button
     $(window).scroll(function () {
         if ($(this).scrollTop() > 20) {
-            $('.back-to-top').fadeIn('fast'); 
+            $('.back-to-top').fadeIn('fast');
         } else {
-            $('.back-to-top').fadeOut('fast'); 
+            $('.back-to-top').fadeOut('fast');
         }
-    });
-
-
-    $('.back-to-top').click(function () {
-        $('html, body').scrollTop(20); // Desplazamiento instantáneo hacia arriba
-        return false;
     });
 
 
@@ -81,35 +75,35 @@
     });
 
 
-    // vegetable carousel
-    $(".vegetable-carousel").owlCarousel({
-        autoplay: true,
-        smartSpeed: 1500,
-        center: false,
-        dots: true,
+    // vegetable carousel with Swiper
+    var swiper = new Swiper('.vegetable-carousel', {
+        slidesPerView: 1,
+        spaceBetween: 25,
         loop: true,
-        margin: 25,
-        nav: true,
-        navText: [
-            '<i class="bi bi-arrow-right"></i>',
-            '<i class="bi bi-arrow-left"></i>'
-        ],
-        responsiveClass: true,
-        responsive: {
-            0: {
-                items: 1
-            },
+        autoplay: {
+            delay: 1500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
             576: {
-                items: 1
+                slidesPerView: 1,
             },
             768: {
-                items: 2
+                slidesPerView: 2,
             },
             992: {
-                items: 3
+                slidesPerView: 3,
             },
             1200: {
-                items: 4
+                slidesPerView: 4,
             }
         }
     });
@@ -150,6 +144,9 @@
         button.parent().parent().find('input').val(newVal);
     });
 
+
+    // Initialize AOS
+    AOS.init();
 
 })(jQuery);
 
