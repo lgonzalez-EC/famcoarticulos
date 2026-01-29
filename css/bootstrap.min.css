@@ -3139,7 +3139,7 @@ fieldset:disabled .btn {
 
 .btn-primary {
     color: #000;
-    background-color: var(--bs-primary);
+    background-color: #023e73;
     border-color: var(--bs-primary)
 }
 

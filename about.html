@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="utf-8">
@@ -110,11 +110,13 @@
 
     <!-- Single Page Header start -->
     <header class="container-fluid page-header py-5">
-        <h1 class="text-center text-white display-6">Nosotros</h1>
-        <ol class="breadcrumb justify-content-center mb-0">
+        <div class="d-flex flex-column justify-content-center align-items-center h-100">
+            <h1 class="text-center text-white display-1">Nosotros</h1>
+            <ol class="breadcrumb justify-content-center mb-0">
             <li class="breadcrumb-item"><a class="text-white" href="index.html">Inicio</a></li>
-            <li class="breadcrumb-item active text-primary">Nosotros</li>
-        </ol>
+            <li class="breadcrumb-item active text-white">Nosotros</li>
+            </ol>
+        </div>
     </header>
     <!-- Single Page Header End -->
 
@@ -123,19 +125,19 @@
     <section class="container-fluid py-5 position-relative bg-white"
         style="background-color: #f9f9f9; overflow: hidden; margin-top: 20px;">
         <!-- Fondo con logo difuminado -->
-        <div class="position-absolute w-100 h-100 animate-background hidden"
-            style="top:0 ; left:0 ; z-index: 10; filter: blur(2px); height: 20px;">
+        <div class="position-absolute w-100 h-100"
+            style="top:0 ; left:0 ; z-index: 10; filter: blur(10px); height: 20px; opacity: 0.25;" >
             <img src="img/logo_famco.png" alt="Logo_Famco" class="w-75 h-75"
-                style="object-fit: contain; position: absolute; top: 12.5%; left: 12.5%;">
+            style="object-fit: contain; position: absolute; top: 12.5%; left: 12.5%;">
         </div>
 
-        <div class="container py-5 position-relative text-center animate-content hidden" style="z-index: 10;">
+        <div class="container py-5 position-relative text-center" style="z-index: 10;" data-aos="fade-up" data-aos-delay="100">
             <div class="row justify-content-center">
-                <h1 class="display-4 text-center mb-4 animate-heading">¿Quiénes somos?</h1>
+                <h2 class="text-center mb-4 display-4" data-aos="slide-left" data-aos-delay="100">¿Quiénes somos?</h2>
                 <div class="col-md-8">
-                    <p class="animate-text hidden text-dark" style="margin-top: 50px; font-size: 1.1rem; ">
+                    <p class="text-dark" style="margin-top: 50px; font-size: 1.5rem; " data-aos="fade-up" data-aos-delay="300">
                         <strong>FAMCO</strong> es una empresa comprometida con la comercialización de productos médicos
-                        especializados que cumplen con la normatividad vigente y altos estándares de calidad. Nos
+                        especializados que cumplen con la normativa vigente y altos estándares de calidad. Nos
                         enfocamos
                         en la prevención y tratamiento avanzado de heridas, estomas, linfedema, ortopedia,
                         terapia de presión negativa, sistemas de compresión, material de curación e insumos médicos.
@@ -485,7 +487,7 @@
 
 
     <!-- Footer Start -->
-    <footer class="container-fluid text-white-50 footer pt-3 mt-5" style="background-color: #00162A">
+    <footer class="container-fluid text-white-50 footer" style="background-color: #00162A">
         <div class="container py-4">
             <div class="pb-4 mb-4" style="border-bottom: 1px solid rgb(255, 255, 255)">
                 <div class="row g-5">
@@ -517,7 +519,7 @@
                     <div class="footer-item">
                         <h4 class="text-white mb-3">Ubicación</h4>
                         <p class="mb-4">
-                            Calle Del Rocio 130-Local B, Jardines del Moral, 37160, Leon, Gto.
+                            Calle Del Roció 130-Local B, Jardines del Moral, 37160, Leon, Gto.
                         </p>
                         <iframe class="rounded w-100" style="height: 150px; border:0;"
                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2028.9940429744738!2d-101.6870199763833!3d21.144773634364217!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbf4120855555%3A0xb3691961785185a4!2sEdge%20%26%20Cloud!5e0!3m2!1ses!2smx!4v1730237219322!5m2!1ses!2smx"
@@ -531,7 +533,7 @@
                         <a class="btn-link" href="index.html">Inicio</a>
                         <a class="btn-link" href="about.html">Nosotros</a>
                         <!-- <a class="btn-link" href="">Productos</a> -->
-                        <a class="btn-link" href="contact.html">Contactanos</a>
+                        <a class="btn-link" href="contact.html">Contáctanos</a>
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-6">

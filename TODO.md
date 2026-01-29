@@ -1,6 +1,9 @@
-# TODO: Arreglar cards de Novedades y separar clases CSS
+# TODO: Agregar botones de WhatsApp a la sección "Nuestros Productos"
 
-- [ ] Editar css/style.css: Crear .novedades-item con height: 450px para más espacio al texto, y .productos-item con height: 400px, copiando estilos de .service-item.
-- [ ] Editar index.html: Cambiar .service-item a .novedades-item en la sección "Novedades".
-- [ ] Editar index.html: Cambiar .service-item a .productos-item en la sección "Nuestros Productos".
-- [ ] Verificar en navegador que el texto no se corte en pantallas de 1920x1080.
+- [x] Agregar botón de WhatsApp para "Cuidado de heridas agudas"
+- [x] Agregar botón de WhatsApp para "Cuidado avanzado de heridas"
+- [x] Agregar botón de WhatsApp para "Medias y calcetines de compresión medica"
+- [x] Agregar botón de WhatsApp para "Vendaje de compresión"
+- [x] Agregar botón de WhatsApp para "Linfedema"
+- [x] Agregar botón de WhatsApp para "ortopedia"
+- [x] Agregar botón de WhatsApp para "Fisioterapía"

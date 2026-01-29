@@ -7,8 +7,9 @@ body {
 
 }
 
-h1{
-  font-weight: 700;
+h1, h2{
+  font-size: 48px;
+  font-weight: 500;
   font-optical-sizing: auto;
 }
 
@@ -31,8 +32,8 @@ h1{
   right: 30px;
   bottom: 30px;
   display: flex;
-  width: 45px;
-  height: 45px;
+  width: 60px;
+  height: 60px;
   align-items: center;
   justify-content: center;
   transition: 0.5s;
@@ -44,14 +45,14 @@ h1{
 .back-to-top:hover {
   background-color: #023e73;
   color: #ffffff;
-  width: 50px;
-  height: 50px;
+  width: 65px;
+  height: 65px;
 }
 /*** Spinner End ***/
 
 /*** Button Start ***/
 .btn {
-  font-weight: 600;
+  font-weight: 500;
   transition: 0.5s;
 }
 
@@ -164,6 +165,10 @@ h1{
   margin-left: 8px;
 }
 
+.navbar-collapse {
+  background-color: #023e73;
+}
+
 @media (min-width: 1200px) {
   .navbar .nav-item .dropdown-menu {
     display: block;
@@ -211,14 +216,14 @@ h1{
 
 /*** Hero Header ***/
 .hero-header {
-  background: linear-gradient(rgba(134, 134, 134, 0.363), rgba(83, 83, 83, 0.342)),
+  background: linear-gradient(rgba(51, 51, 51, 0.363), rgba(3, 3, 3, 0.37)),
     url(../img/hero-img_3.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
   margin-bottom: 0;
 }
 
@@ -265,12 +270,21 @@ h1{
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 500px;
 }
 
 .page-banner {
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.164), rgba(0, 0, 0, 0.623)),
     url(../img/cart-page-banner-img_2.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page-banner-2 {
+  position: relative;
+  background: linear-gradient(#023E73, #023e73d2);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -397,11 +411,13 @@ h1{
 /*** vesitable End ***/
 
 /*** Banner Section Start ***/
-.banner .banner-btn {
+.banner-btn {
   background: #023e73;
+  height: 60px;
+  width: 300px;
 }
 
-.banner .banner-btn:hover {
+.banner-btn:hover {
   background: var(--bs-primary);
 }
 /*** Banner Section End ***/
@@ -649,7 +665,7 @@ h1{
     display: flex;
     align-items: center; /* Centrado vertical */
     justify-content: center; /* Centrado horizontal */
-    padding: 15px; /* Padding consistente */
+    padding: 20px; /* Padding consistente */
     background-color: #f8f9fa; /* Fondo claro para contraste */
     text-align: center;
 }
@@ -674,7 +690,7 @@ h1{
     display: flex;
     align-items: center; /* Centrado vertical */
     justify-content: center; /* Centrado horizontal */
-    padding: 15px; /* Padding consistente */
+    padding: 20px; /* Padding consistente */
     background-color: #f8f9fa; /* Fondo claro para contraste */
     text-align: center;
 }
